@@ -1,26 +1,26 @@
-.App {
+.App { /*app*/
   margin: 0% 5% 0% 5%;
   text-align: center;
 }
 
-.TwirlyPig {
+.TwirlyPig { /*nav*/
   transition: all 3s ease-in-out;
   display: inline;
 }
 
-.TwirlyPig:hover {
+.TwirlyPig:hover { /*nav*/
   transform: scale(1.5);
 }
 
-.navWrapper {
+.navWrapper { /*nav*/
   margin-bottom: 2%;
 }
 
-.filterWrapper {
+.filterWrapper { /*Container*/
   margin: 2% 0% 2% 0%;
 }
 
-.headerText {
+.headerText { /*nav*/
   color: #F5A9BC;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
@@ -38,7 +38,7 @@
   color: #3B0B0B;
 }
 
-.normalText {
+.normalText { /*nav*/
   font-family: Georgia, serif;
   font-size: .75em;
 }
@@ -68,12 +68,12 @@ ul {
 }
 
 
-.indexWrapper {
+.indexWrapper { /*Container*/
   margin: auto;
 }
 
 
-.pigTile {
+.pigTile { /*tile*/
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
@@ -102,7 +102,7 @@ ul {
   opacity: 0.75;
 }
 
-.pigTile h3 {
+.pigTile h3 { /*tile*/
   color: #FBB;
 }
 .minPigTile {
@@ -117,12 +117,12 @@ ul {
   height: 500px;
 }
 
-.pigTile:hover {
+.pigTile:hover { /*tile*/
   transform: scale(1.05);
 }
 
 
-.App-logo {
+.App-logo { /*nav*/
   animation: App-logo-spin infinite 5s linear;
   height: 80px;
   transition: all .2s ease-in-out;
